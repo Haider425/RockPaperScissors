@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="game.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/4c536a6bd5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="score">
+        <div class="playerScore">
+          <label for="playerScore">Player: </label>
+          <div id="playerScore">0</div>
+        </div>
+        <div class="computerScore">
+          <label for="computerScore">Computer: </label>
+          <div id="computerScore">0</div>
+        </div>
+      </div>
+
+      <div class="game">
+        <div class="pics">
+          <div class="pic1">
+            <button id="rock">✊</button>
+          </div>
+          <div class="pic2">
+            <button id="paper">✋</button>
+          </div>
+          <div class="pic3">
+            <button id="scissors">✌️</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="result">
+        <div class="resultText">
+          <div id="resultText">
+          </div>
+        </div>
+      </div>
+      <div class="button"></div>
+    </div>
+
+    <div class="footer">
+      <footer>
+        Copyright © 
+        <script>
+          document.write(new Date().getFullYear())
+        </script> 
+        Haider
+        <a href="https://github.com/Haider425" target="_blank">
+          <i class="fab fa-github"></i
+        ></a>
+      </footer>
+    </div>
+  </body>
+</html>
